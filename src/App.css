@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+h1{
+  color: purple;
+  font-size: 5em;
+  font-weight: 70px;
+  font-family: 'Vollkorn', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: pink;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[name=firstName] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[name=lastName] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+input[name=userName] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[name=email] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+input[name=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 8%;
+  padding: 10px;
+  margin: 10px;
+  margin-inline-start: 10%;
+  border: none;
+  color: rgb(10, 10, 10);
+  background-color: rgb(255, 249, 249);
+  border-radius: 15px;
+}
+
